@@ -13,8 +13,8 @@
   <body>
 
     <!-- Start nav here -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navid">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navcolor" id="navid">
+        <div class="container">
           <a class="navbar-brand" href="#"> 
               <img src="./images/Logo.jpg" class="img-fluid mystyle1" alt="Webpage Logo"> 
             </a>
@@ -48,60 +48,56 @@
 <!-- Start grid 1 -->
 <div class="container">
     <!-- Start car-list-row -->
-    <div class="row mt-5">
+    <div class="row mt-5 flex-gap">
         <h5 id="car_listings">Car Listings</h5>
         <div class="col">
             <!-- Start grid2 for Car list here -->
-            <div class="container-fruid">
-                <div class="row">
-                  <div class="col-sm-5 col-md-3 mt-2">
+            <div class="container-fruit">
+                <div class="row d-flex justify-content-center mx-0 px-0">
+                  <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
                       <!-- Start car picture car1 -->
-                      <div class="card imagestyle">
-                        <img src="./images/images1.jpg" class="card-img-top" alt="Vintage Teal Sedan pricture">
+                      <div class="card shadow card-corners imagestyle">
+                        <img src="./images/images1.jpg" class="card-img-top rounded-corners" alt="Vintage Teal Sedan pricture">
                         <div class="card-body">
                           <h5 class="card-title">Vintage Teal Sedan</h5>
-                          <p class="card-text">Car Type: sedan</p>
-                          <p class="card-text">Door: 5 </p>
+                          <p class="card-text">Car Type: sedan<br>Door: 5 </p>
                               
                         </div>  
                       </div>
                       <!-- End car1 -->
                     
                   </div>
-                  <div class="col-sm-5 col-md-3 mt-2">
+                  <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
                     <!-- Start car picture car2 -->
-                    <div class="card imagestyle">
-                        <img src="./images/images2.jpg" class="card-img-top" alt="Vintage Yellow Ca pricture">
+                    <div class="card shadow card-corners imagestyle">
+                        <img src="./images/images2.jpg" class="card-img-top rounded-corners" alt="Vintage Yellow Ca pricture">
                         <div class="card-body">
                           <h5 class="card-title">Vintage Yellow Car</h5>
-                          <p class="card-text">Car Type: sedan</p>
-                          <p class="card-text">Door: 5 </p>
+                          <p class="card-text">Car Type: sedan<br>Door: 5 </p>
                               
                         </div>  
                       </div> 
                       <!-- End car2 -->
                   </div>
-                  <div class="col-sm-5 col-md-3 mt-2">
+                  <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
                     <!-- Start car picture car3 -->
-                    <div class="card imagestyle">
-                        <img src="./images/images3.jpg" class="card-img-top" alt="Vintage Red Coupe picture">
+                    <div class="card shadow card-corners imagestyle">
+                        <img src="./images/images3.jpg" class="card-img-top rounded-corners" alt="Vintage Red Coupe picture">
                         <div class="card-body">
                           <h5 class="card-title">Vintage Red Coupe</h5>
-                          <p class="card-text">Car Type: sedan</p>
-                          <p class="card-text">Door: 5 </p>
+                          <p class="card-text">Car Type: sedan<br>Door: 5 </p>
                               
                         </div>  
                       </div>
                     <!-- End car3 -->
                   </div>
-                  <div class="col-sm-5 col-md-3 mt-2">
+                  <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
                     <!-- Start car picture car4 -->
-                    <div class="card imagestyle">
-                        <img src="./images/images4.jpg" class="card-img-top" alt="Vintage Green Chev pricture">
+                    <div class="card shadow card-corners imagestyle">
+                        <img src="./images/images4.jpg" class="card-img-top rounded-corners" alt="Vintage Green Chev pricture">
                         <div class="card-body">
                           <h5 class="card-title">Vintage Green Chev</h5>
-                          <p class="card-text">Car Type: sedan</p>
-                          <p class="card-text">Door: 5 </p>
+                          <p class="card-text">Car Type: sedan<br>Door: 5 </p>
                               
                         </div>  
                       </div>
@@ -115,7 +111,7 @@
     <!-- Enquiries about car-row -->
     <div class="row mt-5  bg-info ">
         <h5 id="enquiries">Enquire about a car</h5>
-        <div class="col ">
+        <div class="col">
             <!-- Form start here -->
             <form>
                 <!-- Start full name input -->
@@ -131,6 +127,7 @@
                 </div>
                 <!-- Select tect start here -->
                 <div class="mb-3">
+                    
                     <label for="selectcar" class="form-label">Choose a car</label>
                     <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="selectcar">
                         <option selected>Open this select menu</option>
@@ -139,6 +136,7 @@
                         <option value="3">Vintage Red Coupe</option>
                         <option value="3">Vintage Green Chev</option>
                       </select>
+                    
                 </div>
                 <!-- End select text -->
                 <!-- Start comment input -->

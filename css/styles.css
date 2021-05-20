@@ -1,7 +1,9 @@
 body {
     
-    background-color: rgb(219, 214, 214);
+    background-color: rgb(228, 227, 227);
+    box-sizing: border-box;
 }
+
 
 mystyle1 {
     width: 2px; !important;
@@ -15,11 +17,14 @@ h2 {
 .imagestyle{
     width:16rem;
     height: 16rem;
+    border-radius: 5%;
+
 }
 
 img {
-    width: 8rem;
-    height:8rem;
+    width: 9rem;
+    height:10rem;
+    /* border-radius: 5%; */
 
 }
 h2 {
@@ -29,3 +34,10 @@ h2 {
 h5 {
     color: maroon;
 }
+nav {
+    position: fixed;
+}
+.navcolor {
+    background-color: rgb(238, 237, 237);
+}
+@media query only and max
