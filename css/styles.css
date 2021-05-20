@@ -5,14 +5,11 @@ body {
 }
 
 
-mystyle1 {
+/* mystyle1 {
     width: 2px; !important;
     height: 2px; !important;
-}
+} */
 
-h2 {
-    text-align: center;
-}
 
 .imagestyle{
     width:16rem;
@@ -51,4 +48,7 @@ nav {
 }
 .buttoncolor {
     background-color: rgb(223, 97, 7);
+}
+a {
+    color: rgb(17, 129, 129);
 }
